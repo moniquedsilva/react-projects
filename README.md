@@ -1,5 +1,6 @@
 # React Projects
 
-## Live Demo
+### You can see all projects in action here
 
-1. [Book List](https://mss-booklist.netlify.app/)
+1. [Book List](https://react-projects-booklist.netlify.app/)
+2. [Lorem Ipsum Generator](https://react-projects-ipsum.netlify.app/)
