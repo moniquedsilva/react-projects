@@ -9,7 +9,7 @@ Lorem ipsum, is a dummy text used in laying out print, graphic or web designs. T
 
 ## Preview
 
-![ipsum](https://user-images.githubusercontent.com/71049865/139874426-540454ea-48be-4749-a749-0149561fc015.PNG)
+[Page](https://react-projects-ipsum.netlify.app/)
 
 ---
 
