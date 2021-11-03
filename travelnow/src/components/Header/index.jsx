@@ -1,3 +1,9 @@
-export default function index() {
-  return <div></div>;
+import './header.css';
+
+export default function Header() {
+  return (
+    <header>
+      <img src='./assets/logo.svg' alt='Travelnow Logo' />
+    </header>
+  );
 }

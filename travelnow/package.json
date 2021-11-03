@@ -7,7 +7,6 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "normalize-css": "^2.3.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },

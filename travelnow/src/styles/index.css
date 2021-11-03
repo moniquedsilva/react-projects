@@ -1,1 +1,25 @@
-@import-normalize;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+}
+
+:root {
+  --clr-blue-lighter: rgba(174, 203, 244, 0.13);
+  --clr-blue-light: #233862;
+  --clr-blue-dark: #0f214f;
+  --clr-grey-light: #b6b6b6;
+  --clr-grey-dark: #3d3d3d;
+  --clr-orange: #fbb667;
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-background: #fefeff;
+}
+
+body {
+  width: 100%;
+  background-color: var(--clr-background);
+}
