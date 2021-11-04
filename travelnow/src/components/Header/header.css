@@ -1,6 +1,6 @@
 .header-container {
   padding-top: 0.625rem;
-  width: 84.54vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .mobile-nav {
-  width: 84.54vw;
+  width: 100%;
   height: calc(100vh - 38px);
   position: fixed;
   display: flex;

@@ -26,3 +26,16 @@ body {
   align-items: center;
   background-color: var(--clr-background);
 }
+
+.main-container {
+  width: 84.54vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 81.25em) {
+  .main-container {
+    width: 81.25rem;
+  }
+}
