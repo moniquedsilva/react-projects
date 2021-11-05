@@ -12,7 +12,7 @@ export default function Header() {
     <>
       <header className='header-container'>
         <a href='/'>
-          <img src='./assets/logo.svg' alt='Travelnow Logo' />
+          <img src='./assets/logo.svg' alt='Travelnow Logo' className='logo' />
         </a>
         {/* Menu Mobile*/}
         <figure className='mobile-menu' onClick={handleClick}>

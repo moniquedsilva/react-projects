@@ -9,7 +9,7 @@
 
 .hero-content h1 {
   font-family: 'Crimson Text', serif;
-  letter-spacing: -1%;
+  letter-spacing: -1px;
   line-height: 91.7%;
   font-size: 1.875rem;
   color: var(--clr-blue-dark);
@@ -48,6 +48,7 @@
   color: var(--clr-white);
   background-color: var(--clr-orange);
   border-radius: 100px;
+  cursor: pointer;
 }
 
 ::placeholder {
@@ -59,4 +60,53 @@
 }
 .hero-img {
   width: 100%;
+}
+
+@media (min-width: 48em) {
+  .hero-picture {
+    width: 38rem;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+  }
+  .hero-search button {
+    padding: 11px 30px;
+  }
+}
+
+@media (min-width: 64em) {
+  .hero-section {
+    flex-direction: row;
+    gap: 3.5rem;
+  }
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  .hero-content {
+    width: 44%;
+  }
+}
+
+@media (min-width: 75em) {
+  .hero-picture {
+    width: 42.125rem;
+  }
+  .hero-content h1 {
+    font-size: 4.2rem;
+  }
+  .hero-content p {
+    font-size: 1.125rem;
+  }
+  .hero-search button {
+    padding: 11px 58px;
+  }
+}
+
+@media (min-width: 88em) {
+  .hero-content h1 {
+    font-size: 4.75rem;
+  }
 }
