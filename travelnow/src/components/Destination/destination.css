@@ -1,0 +1,41 @@
+.destination-section {
+  padding: 4.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination-img {
+  width: 84%;
+}
+
+.destination-img img {
+  width: 100%;
+}
+
+.destination-content h2 {
+  font-family: 'Crimson Text', serif;
+  letter-spacing: -1px;
+  line-height: 91.7%;
+  font-size: 1.875rem;
+  color: var(--clr-black);
+}
+
+.destination-content p {
+  margin: 1.187rem 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9375rem;
+  color: var(--clr-grey-dark);
+}
+
+.destination-btn {
+  padding: 11px 17px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  color: var(--clr-white);
+  border-radius: 100px;
+  background-color: var(--clr-blue-dark);
+  cursor: pointer;
+}
