@@ -39,3 +39,41 @@
   background-color: var(--clr-blue-dark);
   cursor: pointer;
 }
+
+@media (min-width: 48em) {
+  .destination-img {
+    width: 38rem;
+  }
+  .destination-content h2 {
+    font-size: 2.5rem;
+  }
+  .destination-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .destination-section {
+    flex-direction: row;
+    gap: 3.68rem;
+  }
+  .destination-content h2 {
+    font-size: 2.5rem;
+  }
+  .destination-content {
+    width: 40%;
+  }
+  .destination-btn {
+    padding: 11px 25px;
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 75em) {
+  .destination-img {
+    width: 42.125rem;
+  }
+  .destination-content h2 {
+    font-size: 3.25rem;
+  }
+}
