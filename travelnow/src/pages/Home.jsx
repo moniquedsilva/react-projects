@@ -5,6 +5,7 @@ import Destination from '../components/Destination';
 import Cards from '../components/Cards';
 import Services from '../components/Services';
 import Footer from '../components/Footer';
+import Copyright from '../components/Copyright';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Cards />
       <Services />
       <Footer />
+      <Copyright />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.copyright {
+  width: 100vw;
+  height: 4.06rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+  font-family: 'Nunito', sans-serif;
+  color: var(--clr-white);
+  background-color: var(--clr-orange);
+}

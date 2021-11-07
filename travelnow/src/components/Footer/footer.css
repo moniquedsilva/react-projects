@@ -1,6 +1,7 @@
 .footer-section {
-  padding: 1.125rem 0;
-  width: 100%;
+  padding-top: 1.125rem;
+  padding-bottom: 3.187rem;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
