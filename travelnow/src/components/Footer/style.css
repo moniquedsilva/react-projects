@@ -35,3 +35,40 @@
   font-size: 0.75rem;
   color: var(--clr-black);
 }
+
+@media (min-width: 48em) {
+  .footer-section {
+    flex-direction: row;
+    gap: 8rem;
+  }
+  .footer-logo {
+    width: 250px;
+  }
+  .footer-paragraph {
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: var(--clr-grey-dark);
+  }
+  .footer-links {
+    gap: 5rem;
+  }
+
+  .links-box h3 {
+    font-size: 1.2rem;
+  }
+
+  .links-box a {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 75em) {
+  .footer-section {
+    gap: 8.7125rem;
+  }
+  .footer-links {
+    gap: 11.18rem;
+  }
+}
