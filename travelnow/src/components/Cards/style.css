@@ -1,5 +1,5 @@
 .cards-section {
-  padding: 5rem 0;
+  padding: 1rem 0;
   width: 100%;
 }
 .cards-list {
@@ -38,8 +38,8 @@
 }
 
 .card-img {
-  width: 258px;
-  height: 220px;
+  width: 16.125rem;
+  height: 13.75rem;
 }
 
 .card-content {
@@ -63,4 +63,31 @@
   font-family: 'Nunito', sans-serif;
   font-size: 0.75rem;
   color: var(--clr-blue-dark);
+}
+
+@media (min-width: 64em) {
+  .card {
+    width: 21.5rem;
+    margin-bottom: 15px;
+  }
+
+  .card-img {
+    width: 21.5rem;
+    height: 18.875rem;
+  }
+  .card-content {
+    height: 6.25rem;
+  }
+  .card-title {
+    font-size: 1.35rem;
+  }
+  .card-paragraph {
+    font-size: 1.125rem;
+  }
+}
+
+@media (min-width: 81.25em) {
+  .cards-list {
+    justify-content: center;
+  }
 }
