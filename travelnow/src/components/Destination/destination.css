@@ -79,7 +79,7 @@
 @media (min-width: 64em) {
   .destination-section {
     flex-direction: row;
-    gap: 3.68rem;
+    gap: 2rem;
   }
   .destination-content h2 {
     font-size: 2.5rem;
@@ -91,13 +91,25 @@
     padding: 11px 25px;
     font-size: 1.125rem;
   }
+  .destination-img {
+    width: 30rem;
+  }
+  .destination-info {
+    gap: 3rem;
+  }
 }
 
 @media (min-width: 75em) {
+  .destination-section {
+    gap: 3.68rem;
+  }
   .destination-img {
     width: 42.125rem;
   }
   .destination-content h2 {
     font-size: 3.25rem;
+  }
+  .destination-info {
+    gap: 5rem;
   }
 }

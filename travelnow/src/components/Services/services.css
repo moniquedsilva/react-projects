@@ -72,6 +72,10 @@
 }
 
 @media (min-width: 75em) {
+  .services-section {
+    gap: 5rem;
+  }
+
   .services-img {
     width: 42.125rem;
   }
