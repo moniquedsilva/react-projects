@@ -3,7 +3,7 @@ import { data } from './data';
 
 export default function Destination() {
   return (
-    <section className='destination-section'>
+    <section id='destination' className='destination-section'>
       <picture className='destination-img'>
         <img src='./assets/figures/travel.svg' alt='Travel couple' />
       </picture>

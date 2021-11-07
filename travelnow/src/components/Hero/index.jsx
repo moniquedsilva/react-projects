@@ -2,7 +2,7 @@ import './hero.css';
 
 export default function Hero() {
   return (
-    <section className='hero-section'>
+    <section id='discover' className='hero-section'>
       <div className='hero-content'>
         <h1>Find your next place to travel</h1>
         <p>

@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <header className='header-container'>
-        <a href='/'>
+        <a href='/#'>
           <img src='./assets/logo.svg' alt='Travelnow Logo' className='logo' />
         </a>
         {/* Menu Mobile*/}
@@ -32,13 +32,13 @@ export default function Header() {
         </figure>
         {/*Desktop Nav*/}
         <nav className='desk-nav'>
-          <a href='#' className='nav-links'>
+          <a href='#discover' className='nav-links'>
             Discover
           </a>
-          <a href='#' className='nav-links'>
+          <a href='#destination' className='nav-links'>
             Destination
           </a>
-          <a href='#' className='nav-links'>
+          <a href='#about-us' className='nav-links'>
             About us
           </a>
         </nav>
