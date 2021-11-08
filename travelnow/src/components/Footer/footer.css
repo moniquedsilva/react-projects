@@ -37,6 +37,10 @@
   color: var(--clr-black);
 }
 
+.links-box a:hover {
+  color: var(--clr-orange);
+}
+
 @media (min-width: 48em) {
   .footer-section {
     flex-direction: row;

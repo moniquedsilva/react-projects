@@ -51,6 +51,10 @@
   cursor: pointer;
 }
 
+.hero-search button:hover {
+  background-color: #d88b33;
+}
+
 ::placeholder {
   color: var(--clr-orange);
 }
