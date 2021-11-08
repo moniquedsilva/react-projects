@@ -75,18 +75,43 @@
     width: 21.5rem;
     height: 18.875rem;
   }
+
   .card-content {
     height: 6.25rem;
   }
+
   .card-title {
     font-size: 1.35rem;
   }
+
   .card-paragraph {
     font-size: 1.125rem;
   }
 }
 
 @media (min-width: 81.25em) {
+  .card {
+    width: 25.5rem;
+    margin-bottom: 15px;
+  }
+
+  .card-img {
+    width: 25.5rem;
+    height: 23.75rem;
+  }
+
+  .card-content {
+    height: 8.18rem;
+  }
+
+  .card-title {
+    font-size: 1.875rem;
+  }
+
+  .card-paragraph {
+    font-size: 1.31rem;
+  }
+
   .cards-list {
     justify-content: center;
   }
