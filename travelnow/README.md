@@ -10,8 +10,6 @@ Travelnow it's a project that simulates a travel agency page
 
 [Page](https://react-projects-travelnow.netlify.app/)
 
-![travelnow](https://user-images.githubusercontent.com/71049865/140829751-e169b1bd-083a-4ba8-83c4-ac9c5f8c4f3a.jpg)
-
 ---
 
 ### Technology
