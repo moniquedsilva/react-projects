@@ -1,5 +1,5 @@
 import { data } from './data';
-import './style.css';
+import './cards.css';
 
 export default function Cards() {
   return (
