@@ -26,11 +26,16 @@ module.exports = {
         'content-area': '83.75rem',
       },
       spacing: {
+        //General
+        distance: '3.125rem',
         //Header
         'header-top': '25px',
         'header-nav': '3.125rem',
         'header-button': '11px 40px',
         'header-button-sm': '8px 20px',
+        //Hero
+        'hero-limitations': '9.375rem',
+        'hero-texts': '1.875rem',
       },
     },
   },
