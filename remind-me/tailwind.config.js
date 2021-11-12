@@ -12,18 +12,8 @@ module.exports = {
       borderRadius: {
         radius: '3.125rem',
       },
-      textColor: {
-        primary: '#212121',
-        'primary-2': '#2D76F9',
-      },
       fontFamily: {
         poppins: "'Poppins', sans-serif",
-      },
-      width: {
-        //Layout Dimensions
-        container: '90rem',
-        'content-scale': '86%',
-        'content-area': '83.75rem',
       },
       spacing: {
         //General
@@ -36,6 +26,16 @@ module.exports = {
         //Hero
         'hero-limitations': '9.375rem',
         'hero-texts': '1.875rem',
+      },
+      textColor: {
+        primary: '#212121',
+        'primary-2': '#2D76F9',
+      },
+      width: {
+        //Layout Dimensions
+        container: '90rem',
+        'content-scale': '86%',
+        'content-area': '83.75rem',
       },
     },
   },
