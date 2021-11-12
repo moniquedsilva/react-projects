@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundColor: {
+        blue: '#2D76F9',
+      },
       borderColor: {
         primary: '#2D76F9',
       },
@@ -15,6 +18,11 @@ module.exports = {
       fontFamily: {
         poppins: "'Poppins', sans-serif",
       },
+      lineHeight: {
+        //Hero
+        'hero-title': '5.3125rem',
+        'hero-txt': '2.25rem',
+      },
       spacing: {
         //General
         distance: '3.125rem',
@@ -26,10 +34,13 @@ module.exports = {
         //Hero
         'hero-limitations': '9.375rem',
         'hero-texts': '1.875rem',
+        'hero-button': '24px 58px',
+        'hero-button-sm': '12px 29px',
       },
       textColor: {
         primary: '#212121',
         'primary-2': '#2D76F9',
+        'primary-3': '#747474',
       },
       width: {
         //Layout Dimensions
