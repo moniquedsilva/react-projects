@@ -13,7 +13,10 @@ module.exports = {
         1.5: '1.5px',
       },
       borderRadius: {
+        //Header
         radius: '3.125rem',
+        //Hero
+        'img-radius': '0px 0px 0px 100px',
       },
       fontFamily: {
         poppins: "'Poppins', sans-serif",
@@ -36,6 +39,7 @@ module.exports = {
         'hero-texts': '1.875rem',
         'hero-button': '24px 58px',
         'hero-button-sm': '12px 29px',
+        'hero-spacing': '6.68rem',
       },
       textColor: {
         primary: '#212121',
@@ -47,6 +51,9 @@ module.exports = {
         container: '90rem',
         'content-scale': '86%',
         'content-area': '83.75rem',
+        //Hero
+        'hero-scale': '93%',
+        'hero-texts': '40%',
       },
     },
   },

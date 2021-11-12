@@ -1,6 +1,6 @@
 export default function index() {
   return (
-    <header className='w-content-scale 2xl:w-content-area mt-header-top text-primary flex justify-between items-center fixed'>
+    <header className='w-content-scale 2xl:w-content-area mt-header-top text-primary flex justify-between items-center fixed z-10'>
       <a href='/'>
         <img src='./assets/icons/logo.svg' alt='Remind Me Logo' />
       </a>
