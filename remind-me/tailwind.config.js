@@ -30,6 +30,7 @@ module.exports = {
         //General
         distance: '3.125rem',
         inside: '1.875rem',
+        margin: '1.5625rem',
         //Header
         'header-top': '25px',
         'header-nav': '3.125rem',
