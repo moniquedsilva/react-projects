@@ -29,6 +29,7 @@ module.exports = {
       spacing: {
         //General
         distance: '3.125rem',
+        inside: '1.875rem',
         //Header
         'header-top': '25px',
         'header-nav': '3.125rem',
