@@ -17,6 +17,8 @@ module.exports = {
         radius: '3.125rem',
         //Hero
         'img-radius': '0px 0px 0px 100px',
+        //Advantage
+        'advantage-left': '6.25rem',
       },
       fontFamily: {
         poppins: "'Poppins', sans-serif",
@@ -25,6 +27,10 @@ module.exports = {
         //Hero
         'hero-title': '5.3125rem',
         'hero-txt': '2.25rem',
+        //Advantage
+        'advantage-title': '4.06rem',
+        'advantage-title-sm': '2.5rem',
+        'advantage-txt': '2.25rem',
       },
       spacing: {
         //General
@@ -42,6 +48,8 @@ module.exports = {
         'hero-button': '24px 58px',
         'hero-button-sm': '12px 29px',
         'hero-spacing': '6.68rem',
+        //Advantage
+        'advantage-spacing': '9.18rem',
       },
       textColor: {
         primary: '#212121',
@@ -56,6 +64,9 @@ module.exports = {
         //Hero
         'hero-scale': '93%',
         'hero-texts': '40%',
+        //Advantage
+        'advantage-img': '52%',
+        'advantage-text': '36%',
       },
     },
   },
