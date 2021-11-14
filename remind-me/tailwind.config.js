@@ -31,6 +31,9 @@ module.exports = {
         'advantage-title': '4.06rem',
         'advantage-title-sm': '2.5rem',
         'advantage-txt': '2.25rem',
+        //Download
+        'download-title': '4.06rem',
+        'download-title-sm': '2.25rem',
       },
       spacing: {
         //General
@@ -50,6 +53,9 @@ module.exports = {
         'hero-spacing': '6.68rem',
         //Advantage
         'advantage-spacing': '9.18rem',
+        //Download
+        'download-buttons': '28px 58px',
+        'download-buttons-sm': '14px 29px',
       },
       textColor: {
         primary: '#212121',
@@ -67,6 +73,10 @@ module.exports = {
         //Advantage
         'advantage-img': '52%',
         'advantage-text': '36%',
+        //Download
+        'download-buttons': '44%',
+        'download-box': '60%',
+        'download-box-sm': '78%',
       },
     },
   },

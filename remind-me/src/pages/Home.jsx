@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Advantage from '../components/Advantage';
+import Download from '../components/Download';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Advantage />
+      <Download />
     </div>
   );
 }
