@@ -75,8 +75,10 @@ module.exports = {
         'advantage-text': '36%',
         //Download
         'download-buttons': '44%',
-        'download-box': '60%',
+        'download-box': '58%',
         'download-box-sm': '78%',
+        'download-large': '40%',
+        'button-w': '250px',
       },
     },
   },
