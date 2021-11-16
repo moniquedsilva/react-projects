@@ -1,6 +1,6 @@
 export default function index() {
   return (
-    <header className='w-content-scale 2xl:w-content-area mt-header-top text-primary flex justify-between items-center fixed z-10'>
+    <header className='fixed flex items-center justify-between mt-header-top text-primary w-content-scale 2xl:w-content-area z-10'>
       <a href='/'>
         <img src='./assets/icons/logo.svg' alt='Remind Me Logo' />
       </a>
@@ -12,7 +12,7 @@ export default function index() {
         <a href='#features'>Features</a>
         <a href='#about-us'>About us</a>
       </nav>
-      <button className='hidden md:block p-header-button-sm lg:p-header-button border-primary border-1.5 rounded-radius text-primary-2'>
+      <button className='hidden md:block border-primary border-1.5 p-header-button-sm lg:p-header-button rounded-radius text-primary-2'>
         About App
       </button>
     </header>

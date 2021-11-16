@@ -6,7 +6,7 @@ import Download from '../components/Download';
 
 export default function Home() {
   return (
-    <div className='w-screen 2xl:w-container flex flex-col items-center'>
+    <div className='flex flex-col items-center w-screen 2xl:w-container'>
       <Header />
       <Hero />
       <Features />
