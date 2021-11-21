@@ -2,9 +2,9 @@ export default function Hero() {
   return (
     <section
       id='home'
-      className='lg:w-hero-scale 2xl:w-content-area pt-hero-limitations lg:pt-0 flex flex-col lg:flex-row items-center gap-distance lg:gap-8 xl:gap-hero-spacing text-primary self-end md:mb-margin'
+      className='flex flex-col lg:flex-row gap-distance lg:gap-8 xl:gap-hero-spacing items-center md:mb-margin pt-hero-limitations self-end text-primary lg:pt-0 lg:w-hero-scale 2xl:w-content-area'
     >
-      <div className='w-content-scale lg:w-hero-texts flex flex-col gap-y-hero-texts'>
+      <div className='flex flex-col gap-y-hero-texts w-content-scale lg:w-hero-texts'>
         <h1 className='font-semibold text-5xl leading-hero-title lg:text-4xl xl:text-5xl xl:leading-hero-title'>
           Manage Schedule and Task Easy
         </h1>
