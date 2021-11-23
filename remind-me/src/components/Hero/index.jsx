@@ -13,7 +13,7 @@ export default function Hero() {
           manage and certainly no longer lagging behind schedule of activities
           and task
         </p>
-        <button className='w-max p-hero-button-sm md:p-hero-button mt-2.5 rounded-full bg-blue text-white text-sm md:text-lg'>
+        <button className='bg-blue mt-2.5 p-hero-button-sm md:p-hero-button rounded-full text-white text-sm md:text-lg w-max'>
           Download App
         </button>
       </div>
@@ -21,7 +21,7 @@ export default function Hero() {
         <img
           src='./assets/figures/hero.svg'
           alt='Remind Me App'
-          className='w-screen lg:w-full lg:rounded-img-radius'
+          className='lg:rounded-img-radius w-screen lg:w-full'
         />
       </div>
     </section>
