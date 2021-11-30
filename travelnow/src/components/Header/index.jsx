@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <header className='header-container'>
-        <a href='/#'>
+        <a href='/#discover'>
           <img src='./assets/logo.svg' alt='Travelnow Logo' className='logo' />
         </a>
         {/* Menu Mobile*/}
@@ -50,13 +50,13 @@ export default function Header() {
       </header>
       {open && (
         <nav className='mobile-nav'>
-          <a href='#' className='nav-links' onClick={handleClick}>
+          <a href='#discover' className='nav-links' onClick={handleClick}>
             Discover
           </a>
-          <a href='#' className='nav-links' onClick={handleClick}>
+          <a href='#destination' className='nav-links' onClick={handleClick}>
             Destination
           </a>
-          <a href='#' className='nav-links' onClick={handleClick}>
+          <a href='#about-us' className='nav-links' onClick={handleClick}>
             About us
           </a>
           <button className='nav-btn'>
