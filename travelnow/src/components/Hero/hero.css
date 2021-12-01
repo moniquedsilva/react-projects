@@ -31,7 +31,8 @@
 }
 
 .hero-search label {
-  display: none;
+  width: 0;
+  height: 0;
 }
 
 .hero-search input {
