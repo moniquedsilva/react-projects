@@ -48,13 +48,13 @@ module.exports = {
         //Hero
         'hero-limitations': '9.375rem',
         'hero-texts': '1.875rem',
-        'hero-button': '24px 58px',
+        'hero-button': '22px 58px',
         'hero-button-sm': '12px 29px',
         'hero-spacing': '6.68rem',
         //Advantage
         'advantage-spacing': '9.18rem',
         //Download
-        'download-buttons': '28px 58px',
+        'download-buttons': '22px 58px',
         'download-buttons-sm': '14px 29px',
       },
       textColor: {
