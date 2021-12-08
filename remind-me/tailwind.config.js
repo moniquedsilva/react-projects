@@ -39,11 +39,14 @@ module.exports = {
       },
       spacing: {
         //General
-        distance: '1.5625rem',
+        distance: '4.6875rem',
+        'distance-m': '3.125rem',
+        'mobile-py': '1.5625rem',
         between: '3.125rem',
         inside: '1.875rem',
         margin: '1.5625rem',
         //Header
+        'header-mb': '4.6875rem',
         'header-top': '25px',
         'header-nav': '3.125rem',
         'header-button': '11px 40px',

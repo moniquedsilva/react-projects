@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id='home'
-      className='flex flex-col lg:flex-row gap-distance lg:gap-8 xl:gap-hero-spacing items-center md:mb-margin pt-hero-limitations self-end text-primary lg:pt-0 lg:w-hero-scale 2xl:w-content-area'
+      className='flex flex-col lg:flex-row gap-between lg:gap-8 xl:gap-hero-spacing items-center mb-mobile-py md:mb-header-mb pt-hero-limitations self-end text-primary lg:pt-0 lg:w-hero-scale 2xl:w-content-area'
     >
       <div className='flex flex-col gap-y-hero-texts w-content-scale lg:w-hero-texts'>
         <h1 className='font-semibold text-5xl leading-hero-title lg:text-4xl xl:text-5xl xl:leading-hero-title'>

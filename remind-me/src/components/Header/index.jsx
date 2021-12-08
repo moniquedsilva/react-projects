@@ -1,6 +1,6 @@
 export default function index() {
   return (
-    <header className='bg-white fixed flex justify-center py-2.5 w-full z-10'>
+    <header className='fixed flex justify-center mt-4 2xl:mt-header-top w-full z-10'>
       <div className='flex items-center justify-between text-primary w-content-scale 2xl:w-content-area'>
         <a href='/#home'>
           <img src='./assets/icons/logo.svg' alt='Remind Me Logo' />

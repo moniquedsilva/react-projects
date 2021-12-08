@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className='flex flex-col lg:flex-row justify-between lg:items-center gap-10 md:my-margin py-distance w-content-scale 2xl:w-content-area'>
-      <div className='w-full lg:w-2/4 xl:w-2/4 space-y-7 xl:mr-20'>
+    <footer className='flex flex-col lg:flex-row gap-10 lg:items-center justify-between py-mobile-py lg:py-distance w-content-scale 2xl:w-content-area'>
+      <div className='xl:mr-20 space-y-7 w-full lg:w-2/4 xl:w-2/4'>
         <a href='/#'>
           <img
             src='./assets/icons/logo-big.svg'
@@ -16,7 +16,7 @@ export default function Footer() {
       </div>
       <div className='flex flex-wrap gap-10 w-full'>
         <div className='flex flex-col gap-y-3.5 w-links-sm xl:w-links'>
-          <h3 className='text-2xl font-semibold mb-7'>Sitemaps</h3>
+          <h3 className='font-semibold mb-7 text-2xl'>Sitemaps</h3>
           <a href='/#' className='text-lg text-primary-3'>
             <span className='text-primary-2'>•</span> Home
           </a>
@@ -28,7 +28,7 @@ export default function Footer() {
           </a>
         </div>
         <div className='flex flex-col gap-y-3.5 w-links-sm xl:w-links'>
-          <h3 className='text-2xl font-semibold mb-7'>Advantages</h3>
+          <h3 className='font-semibold mb-7 text-2xl'>Advantages</h3>
           <a href='/#' className='text-lg text-primary-3'>
             <span className='text-primary-2'>•</span> Set Task Better
           </a>
@@ -40,7 +40,7 @@ export default function Footer() {
           </a>
         </div>
         <div className='flex flex-col gap-y-3.5 mb-follow-us w-links-sm xl:w-links'>
-          <h3 className='text-2xl font-semibold mb-7'>Follow Us</h3>
+          <h3 className='font-semibold mb-7 text-2xl'>Follow Us</h3>
           <div className='flex gap-x-10'>
             <a href='/#'>
               <img src='./assets/icons/facebook.svg' alt='Facebook' />
