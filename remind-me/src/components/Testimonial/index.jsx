@@ -1,4 +1,4 @@
-export default function Testimony() {
+export default function Testimonial() {
   return (
     <section className='flex flex-col items-center gap-y-10 md:my-margin py-distance w-content-scale 2xl:w-content-area'>
       <h2 className='font-semibold self-start text-2xl text-primary'>

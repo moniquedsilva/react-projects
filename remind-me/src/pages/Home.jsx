@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Advantage from '../components/Advantage';
 import Download from '../components/Download';
-import Testimony from '../components/Testimony';
+import Testimonial from '../components/Testimonial';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       <Features />
       <Advantage />
       <Download />
-      <Testimony />
+      <Testimonial />
     </div>
   );
 }
