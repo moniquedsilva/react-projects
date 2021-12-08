@@ -19,6 +19,8 @@ module.exports = {
         'img-radius': '0px 0px 0px 100px',
         //Advantage
         'advantage-left': '6.25rem',
+        //Testimonial
+        'testimonial-img': '6.25rem',
       },
       fontFamily: {
         poppins: "'Poppins', sans-serif",
@@ -38,6 +40,7 @@ module.exports = {
       spacing: {
         //General
         distance: '1.5625rem',
+        between: '3.125rem',
         inside: '1.875rem',
         margin: '1.5625rem',
         //Header
@@ -56,6 +59,8 @@ module.exports = {
         //Download
         'download-buttons': '22px 58px',
         'download-buttons-sm': '14px 29px',
+        //Testimonial
+        'advantage-spacing': '9.18rem',
       },
       textColor: {
         primary: '#212121',
@@ -79,6 +84,9 @@ module.exports = {
         'download-box-sm': '78%',
         'download-large': '40%',
         'button-w': '250px',
+        //Testimonial
+        'testimonial-text': '36%',
+        'testimonial-img': '52%',
       },
     },
   },
