@@ -4,6 +4,7 @@ import Features from '../components/Features';
 import Advantage from '../components/Advantage';
 import Download from '../components/Download';
 import Testimonial from '../components/Testimonial';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Advantage />
       <Download />
       <Testimonial />
+      <Footer />
     </div>
   );
 }
