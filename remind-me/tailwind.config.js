@@ -37,7 +37,7 @@ module.exports = {
       },
       spacing: {
         //General
-        distance: '3.125rem',
+        distance: '1.5625rem',
         inside: '1.875rem',
         margin: '1.5625rem',
         //Header
