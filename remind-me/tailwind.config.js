@@ -61,6 +61,8 @@ module.exports = {
         'download-buttons-sm': '14px 29px',
         //Testimonial
         'advantage-spacing': '9.18rem',
+        //Footer
+        'follow-us': '4.7rem',
       },
       textColor: {
         primary: '#212121',
@@ -87,6 +89,9 @@ module.exports = {
         //Testimonial
         'testimonial-text': '36%',
         'testimonial-img': '52%',
+        //Footer
+        links: '10.81rem',
+        'links-sm': '10rem',
       },
     },
   },
