@@ -42,13 +42,13 @@ export default function Footer() {
         <div className='flex flex-col gap-y-3.5 mb-follow-us w-links-sm xl:w-links'>
           <h3 className='font-semibold mb-7 text-2xl'>Follow Us</h3>
           <div className='flex gap-x-10'>
-            <a href='/#'>
+            <a href='https://facebook.com/' target='_blank' rel='noopener'>
               <img src='./assets/icons/facebook.svg' alt='Facebook' />
             </a>
-            <a href='/#'>
+            <a href='https://twitter.com/' target='_blank' rel='noopener'>
               <img src='./assets/icons/twitter.svg' alt='Twitter' />
             </a>
-            <a href='/#'>
+            <a href='https://www.linkedin.com/' target='_blank' rel='noopener'>
               <img src='./assets/icons/linkedin.svg' alt='Linkedin' />
             </a>
           </div>
